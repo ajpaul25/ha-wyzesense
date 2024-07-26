@@ -1,4 +1,19 @@
 ## Changelog
+### 0.0.17 - Fix string concatenation bug with alarm_data
+
+### 0.0.16 - Fix string concatenation bug
+
+### 0.0.15 - Fix breakage accidentially changing wyzesense requirement
+
+### 0.0.14 - Bring in some changes from wyzesense2mqtt
+https://github.com/raetha/wyzesense2mqtt
+
+### 0.0.13 - Add stability change
+from https://github.com/kevinvincent/ha-wyzesense/issues/189
+
+### 0.0.12 - Move from property device_state_attributes to extra_state_attributes
+property device_state_attributes is deprecated
+
 ### 0.0.9 - More stability fixes
 Prevents wyzesense from stopping when receiving an unparseable packet. Should help with stability issues.
 Thanks to @raetha for the fix.
